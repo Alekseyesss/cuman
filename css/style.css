@@ -1,0 +1,132 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding: 80px 15px;
+  min-height: 1200px;
+  position: relative;
+  text-align: center;
+  font-family: arial, sans-serif;
+  margin: 0;
+}
+
+body {
+  color: #000;
+}
+
+h1,
+p {
+  margin: 0;
+  font-family: sans-serif, arial;
+  font-weight: bold;
+}
+
+.text-wr {
+  /* position: absolute;
+  top: 150px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+#section1 {
+  background-image: url(../images/bg1.png);
+  background-repeat: repeat;
+}
+
+#section2 {
+  background-image: url(../images/bg2.png);
+  background-repeat: repeat;
+}
+
+#section3 {
+  background-image: url(../images/bg3.jpg);
+  background-repeat: repeat;
+}
+
+#section4 {
+  background-image: url(../images/bg4.jpg);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.title-top {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.title-bottom {
+  font-size: 30px;
+}
+
+.title-tx {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.nav {
+  position: fixed; /*left: 50%;*/
+  width: 100%;
+  top: 10px;
+  z-index: 9;
+  padding-left: 10px;
+}
+.nav nav{
+  display: flex;
+  align-items: center;
+}
+.nav a {
+  padding: 7px 20px;
+  border-radius: 7px;
+  border: 1px solid chocolate;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif, arial;
+  font-weight: 100;
+  display: inline-block;
+  min-width: 210px;
+  text-align: center;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+.nav .nav__img {
+  background: none;
+  min-width: 50px;
+}
+.nav a img{
+  height: 50px;
+}
+.fork-wr img {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  border: 0;
+}
